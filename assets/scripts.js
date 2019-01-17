@@ -44,3 +44,14 @@ const fillCircle = (x, y, radius) => {
   ctx.arc(x, y, radius, 0, radius * Math.PI);
   ctx.fill();
 };
+
+// Random color design utility
+// window.addEventListener("keydown", e => {
+//   if (e.code === "Space") {
+//     const bgColor = randomHex();
+//     const textColor = randomHex();
+//     document.body.style.backgroundColor = bgColor;
+//     document.body.style.color = textColor;
+//   }
+// });
+// bgColor: "#6fa14d", textColor: "#f7b250"

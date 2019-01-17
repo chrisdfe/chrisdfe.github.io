@@ -41,15 +41,6 @@
 
 <script src="assets/scripts.js"></script>
 <script>
-// window.addEventListener("keydown", e => {
-//   if (e.code === "Space") {
-//     const bgColor = randomHex();
-//     const textColor = randomHex();
-//     document.body.style.backgroundColor = bgColor;
-//     document.body.style.color = textColor;
-//   }
-// });
-// bgColor: "#6fa14d", textColor: "#f7b250"
 Array.from(document.getElementsByClassName('mail-link')).forEach(function(element) {
   element.setAttribute('href', "mailto:" + ["christopher", "d", "ferris@gmail", "com"].join('.'));
   console.log('element.attributes.href', element.attributes.href);
