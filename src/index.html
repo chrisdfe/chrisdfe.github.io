@@ -11,7 +11,16 @@ socialLinks:
 featuredProjects:
   -
     title: ziggy
+    url: https://github.com/chrisdfe/ziggy
     description: An experimental midi sequencer written in vue.js
+  -
+    title: haiku api
+    url: https://github.com/chrisdfe/haiku-api
+    description:  An API for checking the validity of haikus
+  -
+    title: static site generator
+    url: https://github.com/chrisdfe/static-site-generator
+    description: A simple but powerful static site generator
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -43,17 +52,19 @@ featuredProjects:
     </section>
 
     <section class="section-sweater-parrot">
-      <h3>
+      <p>
         He also creates digital art under the moniker <a class="sweaterparrot-link" target="_blank" href="http://sweaterparrot.co">sweaterparrot</a>
       </h3>
     </section>
 
-    <section>
-      <h3>Featured projects</h3>
+    <section class="section-featured-projects">
+      <h2>Featured projects</h2>
 
       <% featuredProjects.forEach(function(featuredProject) { %>
         <div class="featured-project">
-          <h4><%= featuredProject.title %></h4>
+          <h3>
+            <a href="<%= featuredProject.url %>" target="_blank"><%= featuredProject.title %></a>
+          </h3>
           <p><%= featuredProject.description %></p>
         </div>
       <% }) %>
