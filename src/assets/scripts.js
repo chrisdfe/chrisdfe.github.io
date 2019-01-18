@@ -46,12 +46,12 @@ const fillCircle = (x, y, radius) => {
 };
 
 // Random color design utility
-// window.addEventListener("keydown", e => {
-//   if (e.code === "Space") {
-//     const bgColor = randomHex();
-//     const textColor = randomHex();
-//     document.body.style.backgroundColor = bgColor;
-//     document.body.style.color = textColor;
-//   }
-// });
+window.addEventListener("keydown", e => {
+  if (e.code === "Space") {
+    const bgColor = randomHex();
+    const textColor = randomHex();
+    document.body.style.backgroundColor = bgColor;
+    document.body.style.color = textColor;
+  }
+});
 // bgColor: "#6fa14d", textColor: "#f7b250"

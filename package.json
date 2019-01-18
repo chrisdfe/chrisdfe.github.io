@@ -1,0 +1,23 @@
+{
+  "name": "chrisdfe_personal_website_2019",
+  "version": "1.0.0",
+  "description": "chrisdfe's personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "node_modules/static-site-generator/bin/generate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisdfe/chrisdfe.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrisdfe/chrisdfe.github.io/issues"
+  },
+  "homepage": "https://github.com/chrisdfe/chrisdfe.github.io#readme",
+  "dependencies": {
+    "static-site-generator": "../static-site-generator"
+  }
+}
