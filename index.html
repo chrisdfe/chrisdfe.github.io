@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Christopher Ferris</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+
+  <link href="https://fonts.googleapis.com/css?family=PT+Mono" rel="stylesheet">
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <div class="content">
+    <section class="section-chrisdfe">
+      <h1>
+        Christopher Ferris is a Front End Developer that lives and works in Seattle, WA.
+      </h1>
+
+      <ul class="social-links">
+        
+          <li>
+            <a href="https://github.com/chrisdfe" target="_blank">github</a>
+          </li>
+        
+          <li>
+            <a href="https://www.linkedin.com/in/chrisdfe/" target="_blank">linkedin</a>
+          </li>
+        
+          <li>
+            <a href="#" target="_blank">mail</a>
+          </li>
+        
+      </ul>
+    </section>
+
+    <section class="section-sweater-parrot">
+      <p>
+        He also creates digital art under the moniker <a class="sweaterparrot-link" target="_blank" href="http://sweaterparrot.co">sweaterparrot</a>
+      </h3>
+    </section>
+
+    <section class="section-featured-projects">
+      <h2>Featured projects</h2>
+
+      
+        <div class="featured-project">
+          <h3>
+            <a href="https://github.com/chrisdfe/ziggy" target="_blank">ziggy</a>
+          </h3>
+          <p>An experimental midi sequencer written in vue.js</p>
+        </div>
+      
+        <div class="featured-project">
+          <h3>
+            <a href="https://github.com/chrisdfe/haiku-api" target="_blank">haiku api</a>
+          </h3>
+          <p>An API for checking the validity of haikus</p>
+        </div>
+      
+        <div class="featured-project">
+          <h3>
+            <a href="https://github.com/chrisdfe/static-site-generator" target="_blank">static site generator</a>
+          </h3>
+          <p>A simple but powerful static site generator</p>
+        </div>
+      
+    </section>
+  </div>
+</body>
+
+<script src="assets/scripts.js"></script>
+<script>
+Array.from(document.getElementsByClassName('mail-link')).forEach(function(element) {
+  element.setAttribute('href', "mailto:" + ["christopher", "d", "ferris@gmail", "com"].join('.'));
+  console.log('element.attributes.href', element.attributes.href);
+})
+</script>
+</html>

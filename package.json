@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "generate": "node_modules/static-site-generator/bin/generate"
+    "generate": "node_modules/static-site-generator/bin/generate && cp -r dist/* ."
   },
   "repository": {
     "type": "git",
