@@ -75,6 +75,11 @@ a:hover {
   padding: 1.8rem 0;
 }
 
+.section-chrisdfe {
+  border-bottom: 1px solid #ca3b47;
+}
+
+/*
 .section-sweater-parrot {
   border-top: 1px solid #ca3b47;
   border-bottom: 1px solid #ca3b47;
@@ -83,7 +88,7 @@ a:hover {
 .section-sweater-parrot p {
   margin: 0;
 }
-
+*/
 .section-featured-projects {
 
 }
