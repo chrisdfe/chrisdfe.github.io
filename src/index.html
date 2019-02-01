@@ -8,6 +8,8 @@ socialLinks:
   -
     url: "#"
     name: mail
+    extraClasses: "mail-link"
+    openInNewTab: false
 featuredProjects:
   -
     title: ziggy
@@ -45,7 +47,13 @@ featuredProjects:
       <ul class="social-links">
         <% socialLinks.forEach(function(socialLink) { %>
           <li>
-            <a href="<%= socialLink.url %>" target="_blank"><%= socialLink.name %></a>
+            <a
+              href="<%= socialLink.url %>"
+              target="<%= socialLink.openInNewTab !== false ? '_blank' : '' %>"
+              class="<%= socialLink.extraClasses ? socialLink.extraClasses : '' %>"
+            >
+              <%= socialLink.name %>
+            </a>
           </li>
         <% }) %>
       </ul>
