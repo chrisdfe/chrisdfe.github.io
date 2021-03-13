@@ -1,7 +1,6 @@
 body {
   position: relative;
-  font-family: "Merriweather", serif;
-  background-color: #ff9f93;
+  background-color: #ffd8cc;
   color: #ca3b47;
   font-family: "PT Mono";
 }
@@ -90,7 +89,6 @@ a:hover {
 }
 */
 .section-featured-projects {
-
 }
 
 .section-featured-projects h3 {

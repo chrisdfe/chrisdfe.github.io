@@ -1,0 +1,10 @@
+globalContext:
+  socialLinks:
+    - url: "https://github.com/chrisdfe"
+      name: github
+    - url: "https://www.linkedin.com/in/chrisdfe/"
+      name: linkedin
+    - url: "#"
+      name: mail
+      extraClasses: "mail-link"
+      openInNewTab: false
